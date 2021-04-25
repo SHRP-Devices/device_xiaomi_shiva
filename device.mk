@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/lancelot
+LOCAL_PATH := device/xiaomi/shiva
 
