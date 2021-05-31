@@ -143,5 +143,44 @@ SHRP_FLASH := 1
 SHRP_REC := /dev/block/platform/bootdevice/by-name/recovery
 # Dark Mode
 SHRP_DARK := true
+# Magisk
+INC_IN_REC_MAGISK := true
 # Shrp official
 SHRP_OFFICIAL := true
+
+#SHRP Addons
+SHRP_EXTERNAL_ADDON_PATH := "device/xiaomi/shiva/addon/"
+SHRP_EXTERNAL_ADDON_1_NAME := "SELinux Permissiver"
+SHRP_EXTERNAL_ADDON_1_INFO := "Makes SELinux Permissive"
+SHRP_EXTERNAL_ADDON_1_FILENAME := "permissiver.zip"
+SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "Flash"
+SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Flashed Successfully"
+SHRP_INC_IN_REC_EXTERNAL_ADDON_1 := true
+SHRP_EXTERNAL_ADDON_2_NAME := "SELinux Enforcer"
+SHRP_EXTERNAL_ADDON_2_INFO := "Reverts Back to Enforcing SELinux"
+SHRP_EXTERNAL_ADDON_2_FILENAME := "enforcer.zip"
+SHRP_EXTERNAL_ADDON_2_BTN_TEXT := "Flash"
+SHRP_EXTERNAL_ADDON_2_SUCCESSFUL_TEXT := "Flashed Successfully"
+SHRP_INC_IN_REC_EXTERNAL_ADDON_2 := true
+SHRP_EXTERNAL_ADDON_3_NAME := "[MAGISK] Safetynet Fix"
+SHRP_EXTERNAL_ADDON_3_INFO := "A magisk module which attempts to fix Safetynet"
+SHRP_EXTERNAL_ADDON_3_FILENAME := "safetynet-fix.zip"
+SHRP_EXTERNAL_ADDON_3_BTN_TEXT := "Flash"
+SHRP_EXTERNAL_ADDON_3_SUCCESSFUL_TEXT := "Flashed Successfully"
+SHRP_INC_IN_REC_EXTERNAL_ADDON_3 := true
+SHRP_EXTERNAL_ADDON_4_NAME := "[MAGISK] Blur Enabler"
+SHRP_EXTERNAL_ADDON_4_INFO := "A magisk module which Enables Blur in System"
+SHRP_EXTERNAL_ADDON_4_FILENAME := "blur-enabler.zip"
+SHRP_EXTERNAL_ADDON_4_BTN_TEXT := "Install"
+SHRP_EXTERNAL_ADDON_4_SUCCESSFUL_TEXT := "Installed"
+SHRP_INC_IN_REC_EXTERNAL_ADDON_4 := true
+SHRP_EXTERNAL_ADDON_5_NAME := "[MAGISK] Nav-Bar Space Remover"
+SHRP_EXTERNAL_ADDON_5_INFO := "Removes Space Under Keyboard"
+SHRP_EXTERNAL_ADDON_5_FILENAME := "navbareliminator.zip"
+SHRP_EXTERNAL_ADDON_5_BTN_TEXT := "Install"
+SHRP_EXTERNAL_ADDON_5_SUCCESSFUL_TEXT := "Installed"
+SHRP_INC_IN_REC_EXTERNAL_ADDON_5 := true
+INC_IN_REC_ADDON_1 := true
+INC_IN_REC_ADDON_2 := true
+INC_IN_REC_ADDON_3 := true
+INC_IN_REC_ADDON_4 := true
