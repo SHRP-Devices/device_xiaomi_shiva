@@ -119,3 +119,29 @@ SELINUX_IGNORE_NEVERALLOWS := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
+
+# NOTE - Dont use '-' or blank spaces in flag values , otherwise it will create build errors or other bugs in recovery (Excluding SHRP_PATH,SHRP_REC). 
+# Path of your SHRP Tree
+SHRP_PATH := device/xiaomi/shiva
+# Maintainer name *
+SHRP_MAINTAINER := zubairk22
+# Device codename *
+SHRP_DEVICE_CODE := shiva
+# Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
+SHRP_REC_TYPE := treble
+# Recovery Type (It can be A/B or A_only) [Only for About Section] *
+SHRP_DEVICE_TYPE := A_only
+# Notch
+SHRP_NOTCH := true
+# EDL
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_EXTERNAL := /external_sd
+SHRP_OTG := /usb-otg
+SHRP_FLASH := 1
+# Path
+SHRP_REC := /dev/block/platform/bootdevice/by-name/recovery
+# Dark Mode
+SHRP_DARK := true
+# Shrp official
+SHRP_OFFICIAL := true
